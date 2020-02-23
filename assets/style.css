@@ -1,0 +1,132 @@
+* {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbarResponsive ul li {
+	margin: 0px 30px;
+}
+
+#navbarResponsive ul li a {
+	color: #5d737e;
+}
+
+.active {
+	font-weight: bold;
+}
+
+.content {
+	margin: 5% auto 10% auto;
+}
+
+.bg-image {
+	margin-top: -125px;
+}
+
+.download-btn {
+	background-color: #fa5f3e;
+	color: white;
+	border-radius: 50px;
+	padding: 1% 4%;
+	font-size: 20px;
+	margin: 5% auto;
+	display: block;
+	width: 300px;
+}
+
+a.download-btn:hover {
+	color: white;
+}
+
+footer {
+	background-color: #fa5f3e;
+	color: white;
+	padding: 2% 0%;
+}
+
+footer h6 {
+	text-align: center;
+}
+
+@media (max-width: 576px) {
+	.bg-image {
+		margin-top: 0px;
+	}
+}
+
+.form-title {
+	font-size: 30px;
+	margin-bottom: 30px;
+	color: #1b88be;
+	text-transform: uppercase;
+}
+
+input[type="text"] {
+	font-size: 11pt;
+}
+.form-input {
+	margin-top: 5px;
+	height: 30px;
+	border-radius: 25px;
+	border: 0.1pt solid #fa5f3e;
+}
+
+.login-image {
+	width: 75%;
+	margin-left: 30%;
+}
+
+.register-image {
+	width: 100%;
+	margin-left: 30%;
+	margin-top: 30%;
+}
+
+.btn-login {
+	background-color: #fa5f3e;
+	color: #ffffff;
+	border-radius: 15px;
+}
+
+.btn-login:hover {
+	background-color: #fa5f3e;
+	color: white;
+	font-weight: bold;
+}
+
+.quest {
+	font-size: 11pt;
+}
+
+.quest a:hover {
+	text-decoration: none;
+}
+
+.btn-download {
+	background-color: #fa5f3e;
+	color: white;
+	border-radius: 25px;
+	font-weight: bold;
+	font-size: 15pt;
+	margin: auto;
+	display: block;
+	padding: 1% 4%;
+}
+
+.btn-download:hover {
+	font-size: 15pt;
+	font-weight: bold;
+	color: white;
+}
+
+.playstore-icon {
+	width: 10%;
+}
+
+.btn-playstore {
+	background-color: none;
+	font-weight: bold;
+	font-size: 15pt;
+	margin: auto;
+	display: block;
+	padding: 1% 4%;
+}
