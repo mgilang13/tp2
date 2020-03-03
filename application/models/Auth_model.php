@@ -34,4 +34,11 @@ class Auth_model extends CI_Model {
                         ->get('t_human')->row()->role_id;
         return $role_id;
     }
+
+    public function id_checker($email) {
+        $id = $this->db->select('id')
+                    ->where('email', $email)
+                    ->get('t_human')->row()->id;
+        return $id;
+    }
 }

@@ -6,7 +6,7 @@ class Auth extends CI_Controller {
 	public function __construct()
     {
         parent::__construct();
-        $this->load->model('auth_model');
+        $this->load->model('Auth_model', 'auth_model');
 	}	
 
 	public function index()
@@ -47,7 +47,10 @@ class Auth extends CI_Controller {
 
 			if($password_checking == TRUE) {
 				$role_id_checking = $this->auth_model->role_id_checker($email);
+				$id_checking = $this->auth_model->id_checker($email);
+
 				$data = array(
+					'id' => $id_checking,
                     'email' => $email,
                     'role_id' => $role_id_checking
 				);

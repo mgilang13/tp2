@@ -15,6 +15,7 @@
     <link href="<?= base_url('assets/style.css'); ?>" rel="stylesheet">
     <script src="<?= base_url('assets/pace.js'); ?>"></script>
     <link href="<?= base_url('assets/pace-theme.css'); ?>" rel="stylesheet">
+    
 
 </head>
 
